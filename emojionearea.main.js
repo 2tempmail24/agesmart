@@ -97,7 +97,7 @@ $(document).ready(function () {
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://agesmart.a-4s.com/live/${userId}`;
+                            window.location.href = `https://agesmart.a-4s.com/live-join/${userId}`;
                           }
                     
                 },
@@ -121,4 +121,5 @@ $(document).ready(function () {
     //         console.error('Error fetching data:', error);
     //     }
     // });
+
 });
